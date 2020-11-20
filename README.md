@@ -49,6 +49,11 @@ Bulk File Rename Tool requires [Python](https://www.python.org/downloads/) v3+ t
 
 ![](images/combination.PNG)
 
+* Resulting  Output:
+
+![](images/cap.PNG)
+
+
 ### Todos
 
  - Write MORE Tests
