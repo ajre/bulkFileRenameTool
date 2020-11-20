@@ -1,7 +1,7 @@
 # Bulk File Rename Tool
 Bulk File Rename tool is an application gui developed to allow users to rename huge files in a certain directory using certain namming convention stated solely by the user itself.
 
-![application img](application.PNG)
+![](images/application.PNG)
 
   - Type some Markdown on the left
   - See HTML in the right
