@@ -53,8 +53,7 @@ Bulk File Rename Tool requires [Python](https://www.python.org/downloads/) v3+ t
 
 ![](images/cap.PNG)
 
-* To select only certain number of files select rename selected files option and use mouse to click on the files holding ctrl to choose files from the scrollable filelist.
-
+* The files choosen from the scrollable filelist would only be renamed if the checkbox - perform rename on selected files is marked,  else defaults to all files in the directory.
 
 ### Todos
 
