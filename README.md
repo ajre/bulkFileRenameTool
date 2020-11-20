@@ -43,10 +43,11 @@ Bulk File Rename Tool requires [Python](https://www.python.org/downloads/) v3+ t
 # Important Notes
  
    * The Regex expresion passed in as input will only be matched with the filename.
-   * Eg: For filename docfile1.png the regex will be matched to the docfile1 not to the full file name including the extention.
+   * Keeping that in mind the selected file type option is provide to handle the case where user might want to select filename of certain pattern but also want to include only selected extention.
+   * Eg: For filename docfile1.png the regex passed in as input by the user will be matched to the docfile1 not to the full file name including the extention.
+   * For selecting files with having 'doc' charaters at start of the filename  and having  extention '.txt' would be:
 
-
-
+![](images/combination.PNG)
 
 ### Todos
 
