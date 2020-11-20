@@ -63,9 +63,11 @@ Bulk File Rename Tool requires [Python](https://www.python.org/downloads/) v3+ t
 
 License
 ----
-
 GNU
 
+Author
+----
+AJAY DAS :)
 
 
 
