@@ -415,13 +415,6 @@ class Application(Frame):
             self.fileTypesInput['state'] = 'normal'
             self.fileTypesInput.delete(0,END)
             self.fileTypesInput.insert(0, " Enter extentions here: .png, .jpeg, .py")
-
-
-    def do(self):
-        return 
-        self.progressBar = Progressbar(self.endFrame, length=700, style='black.Horizontal.TProgressbar', maximum = 100, value = 0)
-        self.progressBar.place(x = 1, y = 174)
-        self.endFrame.update()
        
     def initialize_user_interface(self):
         """Method responsible for drawing and postitioning widgets on the root window widget."""
@@ -537,7 +530,7 @@ class Application(Frame):
         self.fileTypesInput.insert(0, "eg: .exe,.png,.jpeg")
         self.fileTypesInput.bind("<FocusIn>", self.clear)
 
-        self.renameSelectedFilesOption =  Checkbutton(self.endFrame, text = " <ctrl + click> to select files\n check this option to \n perform rename operation on selected files only ", onvalue = 1, offvalue = 0, variable = self.check5, command = self.do, fg = "green", bg = self.labelBgColor, justify = "left", font = ("helvetica 13 bold"))
+        self.renameSelectedFilesOption =  Checkbutton(self.endFrame, text = " <ctrl + click> to select files\n check this option to \n perform rename operation on selected files only ", onvalue = 1, offvalue = 0, variable = self.check5, fg = "green", bg = self.labelBgColor, justify = "left", font = ("helvetica 13 bold"))
         self.renameSelectedFilesOption.place(x = 20, y = 114)
         self.renameSelectedFilesOption.deselect()
         self.check5.set(0)
