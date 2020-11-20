@@ -56,8 +56,9 @@ Bulk File Rename Tool requires [Python](https://www.python.org/downloads/) v3+ t
 
 ### Todos
 
- - Write MORE Tests
- - Add Night Mode
+ - Option to select or merge files from multiple file directories.
+ - Option to revert from the changes
+ - Option to rename files to a different directory or maybe a copy of files.
 
 License
 ----
